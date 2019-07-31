@@ -39,22 +39,22 @@ func ByteSize(bytes uint64) string {
 
 	switch {
 	case bytes >= EXABYTE:
-		unit = "E"
+		unit = "EB"
 		value = value / EXABYTE
 	case bytes >= PETABYTE:
-		unit = "P"
+		unit = "PB"
 		value = value / PETABYTE
 	case bytes >= TERABYTE:
-		unit = "T"
+		unit = "TB"
 		value = value / TERABYTE
 	case bytes >= GIGABYTE:
-		unit = "G"
+		unit = "GB"
 		value = value / GIGABYTE
 	case bytes >= MEGABYTE:
-		unit = "M"
+		unit = "MB"
 		value = value / MEGABYTE
 	case bytes >= KILOBYTE:
-		unit = "K"
+		unit = "KB"
 		value = value / KILOBYTE
 	case bytes >= BYTE:
 		unit = "B"

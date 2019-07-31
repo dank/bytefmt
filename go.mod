@@ -1,3 +1,3 @@
-module code.cloudfoundry.org/bytefmt
+module github.com/dank/bytefmt
 
 go 1.12
